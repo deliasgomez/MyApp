@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <!-- colors for my app-->
     <color name="app_yellow">#F6C700</color>
+    <color name="buttonEmptyText">#9D9C9C</color>
 </resources>
