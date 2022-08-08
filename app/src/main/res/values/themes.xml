@@ -22,4 +22,8 @@
     <style name="LoginTheme" parent="Theme.MyApp">
         <item name="colorPrimaryVariant">@color/app_yellow</item>
     </style>
+
+    <style name="RegisterTheme" parent="Theme.MyApp">
+        <item name="colorPrimaryVariant">@color/app_yellow</item>
+    </style>
 </resources>

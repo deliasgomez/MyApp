@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/RegisterTheme"/>
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
@@ -22,9 +26,7 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:theme="@style/LoginTheme">
-
-        </activity>
+            android:theme="@style/LoginTheme"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="false" />
