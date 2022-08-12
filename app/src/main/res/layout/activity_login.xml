@@ -119,50 +119,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loginBtnLogin" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/loginFabApple"
-        android:layout_width="@dimen/size_60"
-        android:layout_height="@dimen/size_60"
-        android:layout_margin="@dimen/size_20"
+        android:layout_width="@dimen/size_70"
+        android:layout_height="@dimen/size_70"
+        android:layout_marginTop="@dimen/size_16"
         android:backgroundTint="@color/white"
         android:src="@drawable/vector_logo_apple"
-        app:fabSize="auto"
-        app:layout_constraintBottom_toBottomOf="@id/loginFabFacebook"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/loginFabFacebook"
-        app:layout_constraintTop_toTopOf="@id/loginFabFacebook"
-        app:tint="@null"
+        app:layout_constraintTop_toBottomOf="@id/loginTvOtherOptions"
         tools:ignore="SpeakableTextPresentCheck"
         android:contentDescription="@string/login_image_apple_description"/>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/loginFabGoogle"
-        android:layout_width="@dimen/size_60"
-        android:layout_height="@dimen/size_60"
-        android:layout_margin="@dimen/size_16"
-        android:layout_marginStart="@dimen/size_12"
-        android:backgroundTint="@color/white"
+        android:layout_width="@dimen/size_70"
+        android:layout_height="@dimen/size_70"
+        android:layout_marginTop="@dimen/size_16"
+        android:padding="@dimen/size_10"
         android:src="@drawable/vector_logo_google"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toBottomOf="@id/loginFabFacebook"
+        app:layout_constraintTop_toBottomOf="@id/loginTvOtherOptions"
         app:layout_constraintStart_toEndOf="@id/loginFabFacebook"
-        app:layout_constraintTop_toTopOf="@id/loginFabFacebook"
-        app:tint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="SpeakableTextPresentCheck"
         android:contentDescription="@string/login_image_google_description"/>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/loginFabFacebook"
-        android:layout_width="@dimen/size_60"
-        android:layout_height="@dimen/size_60"
-        android:layout_margin="@dimen/size_16"
-        android:backgroundTint="@color/white"
+        android:layout_width="@dimen/size_70"
+        android:layout_height="@dimen/size_70"
+        android:layout_marginTop="@dimen/size_16"
         android:src="@drawable/vector_logo_facebook"
-        app:fabSize="normal"
-        app:layout_constraintEnd_toEndOf="@id/loginTvOtherOptions"
-        app:layout_constraintStart_toStartOf="@id/loginTvOtherOptions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loginTvOtherOptions"
-        app:tint="@null"
-        tools:ignore="SpeakableTextPresentCheck"
         android:contentDescription="@string/login_image_facebook_description"/>
 
     <com.google.android.material.textview.MaterialTextView
